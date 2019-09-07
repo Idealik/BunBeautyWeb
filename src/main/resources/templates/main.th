@@ -6,7 +6,7 @@
     <title>BunBeauty</title>
 </head>
 <body>
-    <img alt="BunBeauty" th:src="@{/images/main.png}" width="2207" height="902" />
+    <img alt="BunBeauty" th:src="@{/image/main.png}" width="2207" height="902" />
     <button th:onclick="'window.location.href = \'' + @{/form} + '\''" th:text="'подать заявку'"></button>
 </body>
 </html>
