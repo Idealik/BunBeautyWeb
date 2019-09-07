@@ -23,3 +23,5 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+
+bunbeautyweb-firebase-admin-sdk.json
