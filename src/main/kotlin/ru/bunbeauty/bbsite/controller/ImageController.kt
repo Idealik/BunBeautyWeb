@@ -16,7 +16,6 @@ class ImageController(private val imageService: ImageService) {
 
     @GetMapping("{name}")
     fun getValidate(@PathVariable name: String, response: HttpServletResponse) {
-        print("image")
         response.setContentType(MediaType.IMAGE_JPEG_VALUE)
         IOUtils.copy(ByteArrayInputStream(imageService.findImageByName(name)), response.outputStream)
     }

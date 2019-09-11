@@ -24,7 +24,7 @@ class FirebaseConfig {
          *
          * Create service account , download json
          */
-        val serviceAccount = FileInputStream("C:\\Users\\Ideal\\Desktop\\Config\\bunbeautyweb-firebase-admin-sdk.json")
+        val serviceAccount = FileInputStream("F:\\Extra\\Apps\\bbsite\\src\\main\\resources\\bunbeautyweb-firebase-admin-sdk.json")
 
         val options = FirebaseOptions.Builder()
                 .setCredentials(GoogleCredentials.fromStream(serviceAccount))
