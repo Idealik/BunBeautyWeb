@@ -1,0 +1,104 @@
+.hovereffect {
+    text-align: center;
+    padding: 0;
+    height: 200px;
+}
+
+.hovereffect .overlay {
+    overflow: hidden;
+    background: #005F89;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    border-radius: 10px;
+}
+
+.hovereffect:hover .overlay {
+    background: rgba(0, 95, 137, 0.8);
+}
+
+#bbp-main {
+    text-align: center;
+    background: #FFD646;
+}
+
+#bbp-img {
+    height: 200px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#main-info {
+    order: 10;
+    font-size: 16px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color: #000;
+    text-shadow: 0 0 10px #fff;
+}
+
+.hovereffect:hover #main-info {
+    -webkit-transform: translateY(-160px);
+    -ms-transform: translateY(-160px);
+    transform: translateY(-160px);
+}
+
+.hovereffect:hover #bbp-img {
+    opacity: 0;
+}
+
+.hovereffect .card-title {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transform: translateY(40px);
+    -ms-transform: translateY(40px);
+    transform: translateY(40px);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.hovereffect:hover .card-title {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.hovereffect .info {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 13px;
+    background-color: transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    font-weight: normal;
+    padding: 5px;
+    margin: 10px;
+}
+
+.hovereffect:hover .info {
+    opacity: 1;
+    filter: alpha(opacity=100);
+
+}
+
+.hovereffect .info:hover {
+    box-shadow: 0 0 5px #fff;
+}
+
+.left-align {
+    text-align: left;
+}

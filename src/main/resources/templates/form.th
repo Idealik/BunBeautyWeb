@@ -5,47 +5,47 @@
     <title>BunBeauty</title>
 </head>
 
-<body>
+<body id="form-page">
 <div class="row justify-content-md-center">
-    <form class="row col-md-6 justify-content-md-center" th:action="@{/form}"
+    <form class="row col-md-6 p-4 m-2 justify-content-md-center" th:action="@{/form}"
           method="POST" name="master" enctype="multipart/form-data">
         <div class="col-md-12">
             <input class="form-control text-area" type="text" maxlength="150"
                    placeholder="Имя" name="masterName" th:value="123" required/>
-            <small class="form-text text-muted">Напишите как нам к Вам обращаться</small>
+            <small class="form-text mb-3">Напишите как нам к Вам обращаться</small>
         </div>
 
         <div class="col-md-12">
             <input class="form-control text-area col-md-12" type="text" maxlength="150"
                    placeholder="Телефон" name="phone" required/>
-            <small class="form-text text-muted">Напишите номер мобильного телефона</small>
+            <small class="form-text mb-3">Напишите номер мобильного телефона</small>
         </div>
 
         <div class="col-md-12">
             <input class="form-control text-area col-md-12" type="text" maxlength="150"
                    placeholder="Вид деятельности" name="activityKind" required/>
-            <small class="form-text text-muted">Напишите, чем Вы занимаетесь (маникюр, визаж, парикмахерские услуги и
+            <small class="form-text mb-3">Напишите, чем Вы занимаетесь (маникюр, визаж, парикмахерские услуги и
                 тд.)
             </small>
         </div>
 
-        <h4 class="col-md-12">Необязательные поля</h4>
+        <h4 class="col-md-auto mt-3 font-weight-bold" id="not-nes">Необязательные поля</h4>
         <div class="col-md-12">
-            <input class="form-control text-area col-md-12" type="text" maxlength="150"
-                   placeholder="Расскажите немного о себе" name="about"/>
-            <small class="form-text text-muted">Давайте узнаем друг друга получше (^_^)</small>
+            <textarea class="form-control text-area" maxlength="500"
+                      placeholder="Расскажите немного о себе" name="about"></textarea>
+            <small class="form-text mb-3">Давайте узнаем друг друга получше (^_^)</small>
         </div>
 
         <div class="col-md-12">
-            <input class="form-control text-area col-md-12" type="text" maxlength="150"
-                   placeholder="Почему Вы выбрали BBP?" name="whyBbp"/>
-            <small class="form-text text-muted">Напишите, чем Вас привлекает BBP (цена, место и тд.)</small>
+            <textarea class="form-control text-area" maxlength="500"
+                   placeholder="Почему Вы выбрали BBP?" name="whyBbp"></textarea>
+            <small class="form-text mb-3">Напишите, чем Вас привлекает BBP (цена, место и тд.)</small>
         </div>
 
         <div class="col-md-12">
-            <input class="form-control text-area col-md-12" type="text" maxlength="150"
-                   placeholder="Дополнительные контакты" name="contacts"/>
-            <small class="form-text text-muted">Instagram, VK, Email и тд.</small>
+            <textarea class="form-control text-area" maxlength="500"
+                   placeholder="Дополнительные контакты" name="contacts"></textarea>
+            <small class="form-text mb-3">Instagram, VK, Email и тд.</small>
         </div>
 
         <input hidden th:value="1">
