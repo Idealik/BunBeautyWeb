@@ -23,7 +23,6 @@ class MainController(private val formService : FormService) {
     @PostMapping("/form")
     fun saveForm(model : Model, @ModelAttribute master: Master) : String {
         formService.saveData(master)
-        print(master)
         return "success"
     }
 

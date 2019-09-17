@@ -19,14 +19,10 @@ class FirebaseConfig {
     }
     @PostConstruct
     fun init() {
-        /**
-         * https://firebase.google.com/docs/server/setup
-         *
-         * Create service account , download json
-         */
-        val serviceAccount = FileInputStream("F:\\Extra\\Apps\\bbsite\\src\\main\\resources\\bunbeautyweb-firebase-admin-sdk.json")
+        val serviceAccount = FileInputStream(".\\src\\bunbeautyweb-firebase-admin-sdk.json")
 
         val options = FirebaseOptions.Builder()
+
                 .setCredentials(GoogleCredentials.fromStream(serviceAccount))
                 .setDatabaseUrl("https://bunbeautyweb.firebaseio.com")
                 .setStorageBucket("bunbeautyweb.appspot.com")
