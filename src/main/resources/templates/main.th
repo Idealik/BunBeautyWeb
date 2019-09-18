@@ -153,142 +153,7 @@
                 </div>
             </div>
         </div>
-
-
     </div>
-
-    <!-- <div class="h-100 justify-content-md-center" id="bbp-block">
-         <div class="row align-self-center py-3 justify-content-around">
-
-             &lt;!&ndash;<div class="hovereffect col-3 card">
-                 <div class="overlay">
-                     <div class="font-weight-bold card-title">Выгодно</div>
-                     <div class="row justify-content-center">
-                         <div class="info col-10 ">Благодаря нашей превосходной
-                             ценовой политике, вы платите
-                             небольшую арендную плату
-                         </div>
-                     </div>
-                 </div>
-             </div>&ndash;&gt;
-
-           &lt;!&ndash;  <div class="hovereffect col-3 card">
-                 <div class="overlay">
-                     <div class="font-weight-bold card-title">Рядом</div>
-                     <div class="row justify-content-center">
-                         <div class="info col-10">BunBeatyPlaces находится
-                             не далеко от автобусной
-                             остановки и бесплатной
-                             парковкой, что дает
-                             дополнительный комфорт
-                         </div>
-                     </div>
-                 </div>
-             </div>&ndash;&gt;
-
-           &lt;!&ndash;  <div class="hovereffect col-3 card">
-                 <div class="overlay">
-                     <div class="font-weight-bold card-title">Уютно</div>
-                     <div class="row justify-content-center">
-                         <div class="info col-10 left-align">• Личный стол с хорошим
-                             освещением <br>
-                             • Отгороженная рабочая зона <br>
-                             • Удобные кресла для длительных
-                             процедур <br>
-                             • Самое главное — приятная
-                             атмосфера, располагающая к
-                             работе
-                         </div>
-                     </div>
-                 </div>
-             </div>&ndash;&gt;
-         </div>
-
-         <div class="row align-self-center py-3  justify-content-around">
-            &lt;!&ndash; <div class="hovereffect col-3 card">
-                 <div class="overlay">
-                     <div class="font-weight-bold card-title">Престижно и современно</div>
-                     <div class="row justify-content-center">
-                         <div class="info col-10 ">Каждый день появляется всё
-                             больше новых технологий. И мы
-                             не исключене
-                         </div>
-                     </div>
-                 </div>
-             </div>&ndash;&gt;
-
-            &lt;!&ndash; <div class="hovereffect col-3 card">
-                 <div class="overlay" id="bbp-main">
-                     <img id="bbp-img" alt="BunBeauty Places"
-                          src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/ppb.jpg?alt=media&token=0bc9d211-ae73-44e5-a996-4d3e66ee0de9">
-                     <div class="row justify-content-center">
-                         <div class="col-10" id="main-info">Это не просто место для работы, это пространство для
-                             творческого
-                             взаимодействия, новых знакомств с интересными людьми, а также обмена опытом и идеями.
-                         </div>
-                     </div>
-                 </div>
-             </div>&ndash;&gt;
-
-            &lt;!&ndash; <div class="hovereffect col-3 card">
-                 <div class="overlay">
-                     <div class="font-weight-bold card-title">Быстро</div>
-                     <div class="row justify-content-center">
-                         <div class="info col-10 ">Используя наше приложение
-                             BunBeauty, вы экономите
-                             огромную часть времени из-за
-                             того, что перестаете
-                             отвелкаться на
-                             администрирование услуг,
-                             приложение сделать все за
-                             вас!
-                         </div>
-                     </div>
-                 </div>
-             </div>&ndash;&gt;
-         </div>
-
-         <div class="row align-self-center py-3 justify-content-around">
-           &lt;!&ndash;  <div class="hovereffect col-3 card">
-                 <div class="overlay">
-                     <div class="font-weight-bold card-title">Позитивно</div>
-                     <div class="row justify-content-center">
-                         <div class="info col-10 ">Рабочая зона, выполненная в
-                             приятных тонах поднимает
-                             настроение и рабочий дух
-                         </div>
-                     </div>
-                 </div>
-             </div>&ndash;&gt;
-
-             &lt;!&ndash;<div class="hovereffect col-3 card">
-                 <div class="overlay">
-                     <div class="font-weight-bold card-title">Лояльно</div>
-                     <div class="row justify-content-center">
-                         <div class="info col-10 ">Программа лояльности, созданная
-                             совместно с нашими партнерами,
-                             позволяет получить скидки и
-                             специальные условия на аренду
-                             рабочего места
-                         </div>
-                     </div>
-                 </div>
-             </div>&ndash;&gt;
-
-            &lt;!&ndash; <div class="hovereffect col-3 card">
-                 <div class="overlay">
-                     <div class="font-weight-bold card-title">Удобно</div>
-                     <div class="row justify-content-center">
-                         <div class="info col-10 ">Специально скомпонованное
-                             пространство оснащено всем
-                             необходимым для комфортной
-                             работы
-                         </div>
-                     </div>
-                 </div>
-             </div>&ndash;&gt;
-         </div>
-     </div>-->
 </div>
 <div class="page" id="app-block">
     <div class="row justify-content-around pt-3" id="app-imgs">
@@ -331,18 +196,22 @@
         </div>
     </div>
 
-    <div id="contacts" class="row p-5 justify-content-around">
-        <div class="col-md-auto row align-items-center justify-content-center">
-            <div class="col-auto p-0">+7 (926) 267-21-99</div>
+    <div id="contacts" class="row p-3 justify-content-around">
+        <div class="col-md-4 p-3">
+            <div class="col-md-auto row justify-content-center">
+                <img alt="phone"
+                     src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/phone%202.png?alt=media&token=90f7a50b-e75c-49fc-8e02-0ee8f9b1f9cb">
+            </div>
+            <div class="col-md-auto row justify-content-center">+7 (926) 267-21-99</div>
         </div>
-        <div class="col-md-auto p-3">
+        <div class="col-md-4 p-3">
             <div class="col-md-auto row justify-content-center">
                 <img alt="inst"
                      src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/inst.png?alt=media&token=1da529f1-cab2-417f-82e8-b87f3b70fb92">
             </div>
             <div class="col-md-auto row justify-content-center">@bun_beauty</div>
         </div>
-        <div class="col-md-auto p-3">
+        <div class="col-md-4 p-3">
             <div class="col-md-auto row justify-content-center">
                 <img alt="gmail"
                      src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/g%2B.png?alt=media&token=cb50c03b-34ec-4452-ba70-cce6ec34c8c3">
@@ -351,6 +220,21 @@
         </div>
     </div>
 
+    <div class="p-3">
+        <div class="p-1 text-center">
+            Хочешь такой же сайт?
+        </div>
+        <div id="footer-links" class="row p-1 justify-content-center">
+            <div class="row col-md-3 p-1 justify-content-around">
+                <div class="col-md-auto row align-items-center justify-content-center">
+                    <a th:href="@{https://vk.com/max_astin}" target="_blank">Хочу! </a>
+                </div>
+                <div class="col-md-auto row align-items-center justify-content-center">
+                    <a th:href="@{https://vk.com/xideal}" target="_blank">Хочу! </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>

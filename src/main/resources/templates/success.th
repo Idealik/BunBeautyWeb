@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 
-<head>
+<head th:replace="header">
     <meta charset="UTF-8">
     <title>BunBeauty</title>
 </head>
 <body>
-    <p>Заявка принята на рассмотрение</p>
-    <button th:onclick="'window.location.href = \'' + @{/} + '\''" th:text="'подать заявку'"></button>
+<div class="page">
+    <div class="h-100">
+        <div class="p-5 text-center">
+            <div class="font-weight-bold">Заявка принята на рассмотрение</div><br>
+            <button class="col-md-auto m-3 px-5 btn btn-primary"
+                    th:onclick="'window.location.href = \'' + @{/} + '\''" th:text="'Главная'"></button>
+        </div>
+
+    </div>
+</div>
 </body>
 </html>

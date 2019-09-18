@@ -6,17 +6,20 @@
 </head>
 
 <body id="form-page">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.1.62/jquery.inputmask.bundle.js"></script>
+<script th:src="@{/js/form.js}"></script>
 <div class="row justify-content-md-center">
     <form class="row col-md-6 p-4 m-2 justify-content-md-center" th:action="@{/form}"
           method="POST" name="master" enctype="multipart/form-data">
         <div class="col-md-12">
-            <input class="form-control text-area" type="text" maxlength="150"
+            <input id="name-input" class="form-control text-area" type="text" maxlength="150"
                    placeholder="Имя" name="masterName" th:value="123" required/>
             <small class="form-text mb-3">Напишите как нам к Вам обращаться</small>
         </div>
 
         <div class="col-md-12">
-            <input class="form-control text-area col-md-12" type="text" maxlength="150"
+            <input id="phone" class="form-control text-area col-md-12" type="text" maxlength="150"
                    placeholder="Телефон" name="phone" required/>
             <small class="form-text mb-3">Напишите номер мобильного телефона</small>
         </div>
@@ -38,19 +41,19 @@
 
         <div class="col-md-12">
             <textarea class="form-control text-area" maxlength="500"
-                   placeholder="Почему Вы выбрали BBP?" name="whyBbp"></textarea>
+                      placeholder="Почему Вы выбрали BBP?" name="whyBbp"></textarea>
             <small class="form-text mb-3">Напишите, чем Вас привлекает BBP (цена, место и тд.)</small>
         </div>
 
         <div class="col-md-12">
             <textarea class="form-control text-area" maxlength="500"
-                   placeholder="Дополнительные контакты" name="contacts"></textarea>
+                      placeholder="Дополнительные контакты" name="contacts"></textarea>
             <small class="form-text mb-3">Instagram, VK, Email и тд.</small>
         </div>
 
         <input hidden th:value="1">
 
-        <button type="submit" onclick="" class="btn btn-primary col-md-4">Оставить заявку</button>
+        <button id="form-btn" type="submit" onclick="" class="btn btn-primary col-md-4">Оставить заявку</button>
     </form>
 </div>
 </body>

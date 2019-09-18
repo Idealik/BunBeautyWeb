@@ -73,6 +73,10 @@ body {
     width: 30px;
 }
 
+#footer-links a{
+    color: #fff;
+}
+
 #particles-js{
     position: fixed;
     top: 0;
