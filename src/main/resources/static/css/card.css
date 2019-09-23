@@ -31,7 +31,7 @@
 
 #main-info {
     order: 10;
-    font-size: 16px;
+    font-size: 18px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     color: #000;
@@ -75,7 +75,7 @@
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
-    font-size: 13px;
+    font-size: 14px;
     background-color: transparent;
     opacity: 0;
     filter: alpha(opacity=0);

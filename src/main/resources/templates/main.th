@@ -5,8 +5,8 @@
 <body>
 <script th:src="@{/js/particles.js}"></script>
 <script th:src="@{/js/app.js}"></script>
+<div id="particles-js"></div>
 <div class="page">
-    <div id="particles-js"></div>
     <div class="h-100" id="main-block">
         <div class="text-center">
             <img id="main-img" class="rounded" alt="BunBeauty"
@@ -40,7 +40,7 @@
                     <div class="row justify-content-center">
                         <div class="info col-10 ">Каждый день появляется всё
                             больше новых технологий. И мы
-                            не исключене
+                            не исключение. Работая с нами, вы всегда в тренде.
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@
                             BunBeauty, вы экономите
                             огромную часть времени из-за
                             того, что перестаете
-                            отвелкаться на
+                            отвлекаться на
                             администрирование услуг,
                             приложение сделать все за
                             вас!
@@ -191,8 +191,11 @@
     </div>
     <div class="row justify-content-center p-3" id="gp-ref">
         <div class="col-md-auto row justify-content-center">
-            <img alt="Google Play"
-                 src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/google-play.png?alt=media&token=659abac0-f92e-413e-882f-a923a6f724f1">
+            <a th:href="@{https://play.google.com/store/apps/details?id=com.bunbeauty.ideal.myapplication}"
+               target="_blank">
+                <img alt="Google Play"
+                     src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/google-play.png?alt=media&token=659abac0-f92e-413e-882f-a923a6f724f1">
+            </a>
         </div>
     </div>
 
@@ -202,35 +205,49 @@
                 <img alt="phone"
                      src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/phone%202.png?alt=media&token=90f7a50b-e75c-49fc-8e02-0ee8f9b1f9cb">
             </div>
-            <div class="col-md-auto row justify-content-center">+7 (926) 267-21-99</div>
+            <div class="col-md-auto row justify-content-center">+7 (996) 922-41-86</div>
         </div>
+
+
         <div class="col-md-4 p-3">
             <div class="col-md-auto row justify-content-center">
-                <img alt="inst"
-                     src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/inst.png?alt=media&token=1da529f1-cab2-417f-82e8-b87f3b70fb92">
+                <a th:href="@{https://www.instagram.com/bunbeauty_official/}" target="_blank">
+                    <img alt="inst"
+                         src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/inst.png?alt=media&token=1da529f1-cab2-417f-82e8-b87f3b70fb92">
+                </a>
             </div>
-            <div class="col-md-auto row justify-content-center">@bun_beauty</div>
+            <a class="link" th:href="@{https://www.instagram.com/bunbeauty_official/}" target="_blank">
+                <div class="col-md-auto row justify-content-center">@bunbeauty_official</div>
+            </a>
         </div>
+
+
         <div class="col-md-4 p-3">
+
             <div class="col-md-auto row justify-content-center">
-                <img alt="gmail"
-                     src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/g%2B.png?alt=media&token=cb50c03b-34ec-4452-ba70-cce6ec34c8c3">
+                <a th:href="@{https://mail.google.com}" target="_blank">
+                    <img alt="gmail"
+                         src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/g%2B.png?alt=media&token=cb50c03b-34ec-4452-ba70-cce6ec34c8c3">
+                </a>
             </div>
-            <div class="col-md-auto row justify-content-center">bun.beauty@gmail.com</div>
+            <a class="link" th:href="@{https://mail.google.com}" target="_blank">
+                <div class="col-md-auto row justify-content-center">bun.beauty2019@gmail.com</div>
+            </a>
         </div>
+
     </div>
 
     <div class="p-3">
         <div class="p-1 text-center">
-            Хочешь такой же сайт?
+            Хочешь такой же сайт? Пиши!
         </div>
-        <div id="footer-links" class="row p-1 justify-content-center">
+        <div class="row p-1 justify-content-center">
             <div class="row col-md-3 p-1 justify-content-around">
                 <div class="col-md-auto row align-items-center justify-content-center">
-                    <a th:href="@{https://vk.com/max_astin}" target="_blank">Хочу! </a>
+                    <a class="link" th:href="@{https://vk.com/max_astin}" target="_blank">Валентин Подкопаев</a>
                 </div>
                 <div class="col-md-auto row align-items-center justify-content-center">
-                    <a th:href="@{https://vk.com/xideal}" target="_blank">Хочу! </a>
+                    <a class="link" th:href="@{https://vk.com/xideal}" target="_blank">Марк Шавловский</a>
                 </div>
             </div>
         </div>

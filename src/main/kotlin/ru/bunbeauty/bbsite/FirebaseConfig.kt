@@ -19,7 +19,7 @@ class FirebaseConfig {
     }
     @PostConstruct
     fun init() {
-        val serviceAccount = FileInputStream(".\\src\\bunbeautyweb-firebase-admin-sdk.json")
+        val serviceAccount = FileInputStream("src/bunbeautyweb-firebase-admin-sdk.json")
 
         val options = FirebaseOptions.Builder()
 
