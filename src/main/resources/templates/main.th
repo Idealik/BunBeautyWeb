@@ -5,8 +5,8 @@
 <body>
 <script th:src="@{/js/particles.js}"></script>
 <script th:src="@{/js/app.js}"></script>
-<div id="particles-js"></div>
 <div class="page">
+    <div id="particles-js"></div>
     <div class="h-100" id="main-block">
         <div class="text-center">
             <img id="main-img" class="rounded" alt="BunBeauty"
@@ -205,6 +205,7 @@
                 <img alt="phone"
                      src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/phone%202.png?alt=media&token=90f7a50b-e75c-49fc-8e02-0ee8f9b1f9cb">
             </div>
+            <div class="col-md-auto row justify-content-center">+7 (926) 267-21-99</div>
             <div class="col-md-auto row justify-content-center">+7 (996) 922-41-86</div>
         </div>
 

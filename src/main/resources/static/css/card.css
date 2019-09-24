@@ -31,7 +31,7 @@
 
 #main-info {
     order: 10;
-    font-size: 18px;
+    font-size: 16px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     color: #000;
@@ -75,7 +75,7 @@
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
-    font-size: 14px;
+    font-size: 16px;
     background-color: transparent;
     opacity: 0;
     filter: alpha(opacity=0);
@@ -101,4 +101,10 @@
 
 .left-align {
     text-align: left;
+}
+
+@media screen and (max-width: 715px) {
+    #main-info, .info {
+        font-size: 12px !important;
+    }
 }

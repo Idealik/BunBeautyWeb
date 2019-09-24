@@ -14,7 +14,7 @@
           method="POST" name="master" enctype="multipart/form-data">
         <div class="col-md-12">
             <input id="name-input" class="form-control text-area" type="text" maxlength="150"
-                   placeholder="Имя" name="masterName" th:value="123" required/>
+                   placeholder="Имя" name="masterName" required/>
             <small class="form-text mb-3">Напишите как нам к Вам обращаться</small>
         </div>
 

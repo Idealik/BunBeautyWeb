@@ -17,15 +17,20 @@ body {
     z-index: 100;
 }
 
+.app-text {
+    background: #005F89;
+}
+
 .btn {
     padding: 12px 0;
     border-radius: 25px;
     background: linear-gradient(135deg, #007693, #005F89);
     font-weight: bold;
+    border: none;
 }
 
 .btn:hover {
-    background: linear-gradient(135deg, #008aa7, #00729d);
+    background: linear-gradient(135deg, #006c89, #006087);
 }
 
 .page {
@@ -71,7 +76,7 @@ body {
 }
 
 #contacts img{
-    width: 30px;
+    height: 30px;
 }
 
 a.link {
@@ -113,6 +118,10 @@ small {
         width: 311px;
         height: 114px;
         margin: 0 auto;
+    }
+
+    #particles-js {
+        visibility: hidden;
     }
 }
 
