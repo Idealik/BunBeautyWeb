@@ -13,6 +13,9 @@
     <link rel="stylesheet" type="text/css" th:href="@{/css/general.css}">
     <link rel="stylesheet" type="text/css" th:href="@{/css/card.css}">
 
+    <link href="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/icon.ico?alt=media&token=c16400e5-6c52-4fa2-9ea9-4e5c8d6d4905"
+          rel="icon">
+
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 </head>
 <body>

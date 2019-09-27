@@ -28,7 +28,7 @@
                     <div class="row justify-content-center">
                         <div class="info col-10 ">Благодаря нашей превосходной
                             ценовой политике, вы платите
-                            небольшую арендную плату
+                            небольшую аренду - всего 8499 руб, а также можете сэкономить от 1000 руб
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                     <div class="row justify-content-center">
                         <div class="info col-10 ">Каждый день появляется всё
                             больше новых технологий. И мы
-                            не исключение. Работая с нами, вы всегда в тренде.
+                            не исключение. Работая с нами, вы всегда в тренде
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                     <div class="row justify-content-center">
                         <div class="col-10" id="main-info">Это не просто место для работы, это пространство для
                             творческого
-                            взаимодействия, новых знакомств с интересными людьми, а также обмена опытом и идеями.
+                            взаимодействия, новых знакомств с интересными людьми, а также обмена опытом и идеями
                         </div>
                     </div>
                 </div>
@@ -92,11 +92,11 @@
                 <div class="overlay">
                     <div class="font-weight-bold card-title">Лояльно</div>
                     <div class="row justify-content-center">
-                        <div class="info col-10 ">Программа лояльности, созданная
-                            совместно с нашими партнерами,
+                        <div class="info col-10 ">Программа лояльности
                             позволяет получить скидки и
                             специальные условия на аренду
-                            рабочего места
+                            рабочего места. Устанавливайте наше приложение
+                            и экономте свыше 1000 руб. каждый месяц
                         </div>
                     </div>
                 </div>
@@ -134,7 +134,7 @@
                             отвлекаться на
                             администрирование услуг,
                             приложение сделать все за
-                            вас!
+                            вас
                         </div>
                     </div>
                 </div>
@@ -205,7 +205,6 @@
                 <img alt="phone"
                      src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/phone%202.png?alt=media&token=90f7a50b-e75c-49fc-8e02-0ee8f9b1f9cb">
             </div>
-            <div class="col-md-auto row justify-content-center">+7 (926) 267-21-99</div>
             <div class="col-md-auto row justify-content-center">+7 (996) 922-41-86</div>
         </div>
 

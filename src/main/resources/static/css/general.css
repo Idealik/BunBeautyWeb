@@ -14,7 +14,6 @@ body {
 #main-img {
     max-width: 932px;
     max-height: 341px;
-    z-index: 100;
 }
 
 .app-text {
@@ -122,6 +121,10 @@ small {
 
     #particles-js {
         visibility: hidden;
+    }
+
+    .page {
+        height: 85vh;
     }
 }
 
