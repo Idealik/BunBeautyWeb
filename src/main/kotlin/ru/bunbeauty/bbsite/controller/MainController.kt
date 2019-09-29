@@ -3,6 +3,8 @@ package ru.bunbeauty.bbsite.controller
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
 import org.springframework.web.bind.annotation.*
+import org.springframework.web.context.request.RequestContextHolder
+import org.springframework.web.context.request.ServletRequestAttributes
 import ru.bunbeauty.bbsite.model.Master
 import ru.bunbeauty.bbsite.service.FormService
 
@@ -22,7 +24,7 @@ class MainController(private val formService : FormService) {
 
     @PostMapping("/form")
     fun saveForm(model : Model, @ModelAttribute master: Master) : String {
-        formService.saveData(master)
+        formService.saveMaster(master)
         return "success"
     }
 

@@ -28,7 +28,7 @@
                     <div class="row justify-content-center">
                         <div class="info col-10 ">Благодаря нашей превосходной
                             ценовой политике, вы платите
-                            небольшую аренду - всего 8499 руб, а также можете сэкономить от 1000 руб
+                            небольшую аренду - всего 8499 ₽
                         </div>
                     </div>
                 </div>
@@ -92,11 +92,9 @@
                 <div class="overlay">
                     <div class="font-weight-bold card-title">Лояльно</div>
                     <div class="row justify-content-center">
-                        <div class="info col-10 ">Программа лояльности
-                            позволяет получить скидки и
-                            специальные условия на аренду
-                            рабочего места. Устанавливайте наше приложение
-                            и экономте свыше 1000 руб. каждый месяц
+                        <div class="info col-10">Программа лояльности позволяет получить скидки и специальные условия
+                            на аренду рабочего места. Установив приложение BunBeauty и заключив договор на долгосрочную
+                            аренду (от 3-х месяцев), вы экономите при этом более 1000 ₽
                         </div>
                     </div>
                 </div>
@@ -242,12 +240,12 @@
             Хочешь такой же сайт? Пиши!
         </div>
         <div class="row p-1 justify-content-center">
-            <div class="row col-md-3 p-1 justify-content-around">
+            <div class="row col-md-4 p-1 justify-content-around">
                 <div class="col-md-auto row align-items-center justify-content-center">
-                    <a class="link" th:href="@{https://vk.com/max_astin}" target="_blank">Валентин Подкопаев</a>
+                    <a class="link" th:href="@{https://vk.com/max_astin}" target="_blank">Валентин Подкопаев &#128048</a>
                 </div>
                 <div class="col-md-auto row align-items-center justify-content-center">
-                    <a class="link" th:href="@{https://vk.com/xideal}" target="_blank">Марк Шавловский</a>
+                    <a class="link" th:href="@{https://vk.com/xideal}" target="_blank">Марк Шавловский &#128007</a>
                 </div>
             </div>
         </div>

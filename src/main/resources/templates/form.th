@@ -36,13 +36,13 @@
         <div class="col-md-12">
             <textarea class="form-control text-area" maxlength="500"
                       placeholder="Расскажите немного о себе" name="about"></textarea>
-            <small class="form-text mb-3">Давайте узнаем друг друга получше (^_^)</small>
+            <small class="form-text mb-3">Давайте узнаем друг друга получше &#128522</small>
         </div>
 
         <div class="col-md-12">
             <textarea class="form-control text-area" maxlength="500"
                       placeholder="Почему Вы выбрали BBP?" name="whyBbp"></textarea>
-            <small class="form-text mb-3">Напишите, чем Вас привлекает BBP (цена, место и тд.)</small>
+            <small class="form-text mb-3">Напишите, чем Вас привлекает BunBeautyPlaces (цена, наше приложение и тд.)</small>
         </div>
 
         <div class="col-md-12">
