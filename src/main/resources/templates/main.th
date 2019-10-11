@@ -173,9 +173,9 @@
             <div class="font-weight-bold">3. Удобное создание услуги</div>
             <div class="pl-4 app-hint">Получай удовольствие от работы</div>
             <img class="m-1" alt="BunBeauty"
-                 src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/app-create.jpg?alt=media&token=7d417cb3-2b07-4f6b-9196-cbb290ebe114">
+                 src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/app-create1.jpg?alt=media&token=0e7ffe4f-120b-47d2-8d2e-b18c21669a5d">
             <img class="m-1" alt="BunBeauty"
-                 src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/app-edit.jpg?alt=media&token=166c5108-5353-4d73-a768-45d3aa6802c1">
+                 src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/app-create2.jpg?alt=media&token=db0c2cca-def2-4f89-ad14-c8708ea3493c">
         </div>
 
         <div class="col-md-auto">
@@ -187,7 +187,7 @@
                  src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/app-time.jpg?alt=media&token=a6f76d12-d14b-4466-be4b-edf156227040">
         </div>
     </div>
-    <div class="row justify-content-center p-3" id="gp-ref">
+    <!--<div class="row justify-content-center p-3" id="gp-ref">
         <div class="col-md-auto row justify-content-center">
             <a th:href="@{https://play.google.com/store/apps/details?id=com.bunbeauty.ideal.myapplication}"
                target="_blank">
@@ -196,18 +196,19 @@
             </a>
         </div>
     </div>
-
+-->
     <div id="contacts" class="row p-3 justify-content-around">
-        <div class="col-md-4 p-3">
+        <div class="col-md-3 p-3">
             <div class="col-md-auto row justify-content-center">
                 <img alt="phone"
                      src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/phone%202.png?alt=media&token=90f7a50b-e75c-49fc-8e02-0ee8f9b1f9cb">
             </div>
             <div class="col-md-auto row justify-content-center">+7 (996) 922-41-86</div>
+            <div class="col-md-auto row justify-content-center">Шавловский Марк Вячеславович</div>
         </div>
 
 
-        <div class="col-md-4 p-3">
+        <div class="col-md-3 p-3">
             <div class="col-md-auto row justify-content-center">
                 <a th:href="@{https://www.instagram.com/bunbeauty_official/}" target="_blank">
                     <img alt="inst"
@@ -219,8 +220,20 @@
             </a>
         </div>
 
+        <div class="col-md-3 p-3">
+            <div class="col-md-auto row justify-content-center">
+                <a th:href="@{https://vk.com/bunbeauty/}" target="_blank">
+                    <img alt="inst"
+                         src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/vk.png?alt=media&token=9b8b457f-e6a0-4964-8ff0-7633c93cbf7e">
+                </a>
+            </div>
+            <a class="link" th:href="@{https://vk.com/bunbeauty/}" target="_blank">
+                <div class="col-md-auto row justify-content-center">vk.com/bunbeauty</div>
+            </a>
+        </div>
 
-        <div class="col-md-4 p-3">
+
+        <div class="col-md-3 p-3">
 
             <div class="col-md-auto row justify-content-center">
                 <a th:href="@{https://mail.google.com}" target="_blank">
