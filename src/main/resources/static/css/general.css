@@ -12,12 +12,21 @@ body {
 }
 
 #main-img {
-    max-width: 932px;
-    max-height: 341px;
+    max-width: 600px;
+    max-height: 220px;
 }
 
 .app-text {
     background: #005F89;
+}
+
+#giveaway {
+    background: #FFD646;
+    border-radius: 5px;
+}
+
+.ga-black {
+    color: #000000;
 }
 
 .btn {
@@ -124,6 +133,19 @@ small {
 
     .page {
         height: 85vh;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .extra-info {
+        display: none;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .extra-info {
+        font-size: 12px;
     }
 }
 
