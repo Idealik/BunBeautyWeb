@@ -16,6 +16,11 @@ body {
     max-height: 220px;
 }
 
+#sale {
+    width: 200px;
+    height: 200px;
+}
+
 .app-text {
     background: #005F89;
 }
@@ -27,6 +32,11 @@ body {
 
 .ga-black {
     color: #000000;
+}
+
+.ga-black:hover {
+    color: #000000;
+    text-decoration: none;
 }
 
 .btn {
@@ -43,7 +53,7 @@ body {
 
 .page {
     color: #fff;
-    height: 95vh;
+    height: 100vh;
     width: 100%;
     margin: 0;
 }
@@ -131,9 +141,6 @@ small {
         visibility: hidden;
     }
 
-    .page {
-        height: 85vh;
-    }
 }
 
 @media screen and (max-width: 850px) {
