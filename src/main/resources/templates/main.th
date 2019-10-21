@@ -60,15 +60,19 @@
                     Аренда помещения, аренда места в салонах, доход
                     мастеров, все это повлияло на конечную стоимость.
                 </div>
-                <div class="row justify-content-center">
-                    <a th:href="@{https://vk.com/bunbeauty}" class="col-auto" target="_blank">
-                        <div class="w-100 justify-content-center">
-                            <img alt="sale" id="sale"
-                                 src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/sale.png?alt=media&token=67ee49fd-ac22-4b90-a884-73cd8268418e">
+                <a id="sale-a" th:href="@{https://vk.com/bunbeauty?w=wall-144480286_171}" target="_blank">
+                    <div class="row justify-content-center m-2" id="sale">
+                        <div class="col-auto p-3" >
+                           <b>Получить скидку 3000 ₽</b>
                         </div>
-                    </a>
-                </div>
-
+                        <!-- <a th:href="@{https://vk.com/bunbeauty}" class="col-auto" target="_blank">
+                             <div class="w-100 justify-content-center">
+                                 <img alt="sale" id="sale"
+                                      src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/sale.png?alt=media&token=67ee49fd-ac22-4b90-a884-73cd8268418e">
+                             </div>
+                         </a>-->
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -209,6 +213,7 @@
     </div>
 </div>
 <div class="page" id="app-block">
+    <div class="text-center pt-3 font-weight-bold" id="app-header">Мобильное приложение BunBeauty</div>
     <div class="row justify-content-around pt-3" id="app-imgs">
         <div class="col-md-auto">
             <div class="font-weight-bold">1. Простейшая регистрация</div>

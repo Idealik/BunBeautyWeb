@@ -17,8 +17,14 @@ body {
 }
 
 #sale {
-    width: 200px;
-    height: 200px;
+    background: #FFD646;
+    color: #000000;
+    border-radius: 5px;
+}
+
+#sale-a:hover {
+    color: #000000;
+    text-decoration: none;
 }
 
 .app-text {
@@ -81,8 +87,8 @@ body {
     background: #007F9F;
 }
 
-#app-headers {
-    font-size: 18px;
+#app-header {
+    font-size: 20px;
 }
 
 .app-hint{
