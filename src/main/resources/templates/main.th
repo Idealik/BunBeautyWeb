@@ -5,13 +5,13 @@
 <body>
 <script th:src="@{/js/particles.js}"></script>
 <script th:src="@{/js/app.js}"></script>
-<div class="fixed-top d-flex w-100 justify-content-end p-3">
+<!--<div class="fixed-top d-flex w-100 justify-content-end p-3">
     <a class="ga-black" th:href="@{https://vk.com/bunbeauty?w=wall-144480286_158}" target="_blank">
         <div class="p-2" id="giveaway">
             <b>🍕 Конкурс 🍕</b>
         </div>
     </a>
-</div>
+</div>-->
 <div class="page">
     <div id="particles-js"></div>
     <div class="h-100" id="main-block">
@@ -266,7 +266,7 @@
                         type="text/javascript" charset="utf-8"></script>
             </div>
             <div class="col-12 row justify-content-center mt-2 mb-4">
-                Адрес: просп. Боголюбова, 44Ас1, 2 этаж
+                Адрес: просп. Боголюбова, 44А, 2 этаж
             </div>
         </div>
 
