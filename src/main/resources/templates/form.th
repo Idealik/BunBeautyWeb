@@ -24,9 +24,7 @@
         <div class="col-md-12">
             <input class="form-control text-area col-md-12" type="text" maxlength="150"
                    placeholder="Вид деятельности" name="activityKind" required/>
-            <small class="form-text mb-3">Напишите, чем Вы занимаетесь (маникюр, визаж, парикмахерские услуги и
-                тд.)
-            </small>
+            <small class="form-text mb-3">Напишите, чем Вы занимаетесь (маникюр, визаж, брови и тд.)</small>
         </div>
 
         <h4 class="col-md-auto mt-3 font-weight-bold" id="not-nes">Необязательные поля</h4>

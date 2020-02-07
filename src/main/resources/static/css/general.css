@@ -58,6 +58,15 @@ h1 {
     border: none;
 }
 
+.small-btn {
+    height: 36px;
+    font-size: 12px;
+    padding: 8px 0;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #007693, #005F89);
+    border: none;
+}
+
 .btn:hover {
     background: linear-gradient(135deg, #006c89, #006087);
 }

@@ -5,6 +5,7 @@
 <body>
 <script th:src="@{/js/particles.js}"></script>
 <script th:src="@{/js/app.js}"></script>
+<script th:src="@{/js/fontawesome.js}"></script>
 <div class="page">
     <div id="particles-js"></div>
     <div class="h-100" id="main-block">
@@ -13,8 +14,20 @@
                  src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/main.png?alt=media&token=642c7a7b-d098-46a8-b052-ed9c53814859">
         </div>
         <div class="row h-40 justify-content-center">
+            <a th:href="@{https://www.instagram.com/bunbeauty_official/}">
+                <button class="col-md-auto m-3 px-5 small-btn btn-primary">
+                    Написать в <i class="fab fa-instagram"></i>
+                </button>
+            </a>
+
             <button class="col-md-auto m-3 px-5 btn btn-primary" th:text="'Подать заявку'"
                     th:onclick="'window.location.href = \'' + @{/form} + '\''"></button>
+
+            <a th:href="@{https://vk.com/im?sel=-144480286}">
+                <button class="col-md-auto m-3 px-5 small-btn btn-primary">
+                    Написать в <i class="fab fa-vk"></i>
+                </button>
+            </a>
         </div>
         <div class="row justify-content-around" id="info-block">
             <div class="col-md-4 m-2">
