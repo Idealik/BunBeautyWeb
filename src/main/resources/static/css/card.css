@@ -6,7 +6,6 @@
 
 .hovereffect .overlay {
     overflow: hidden;
-    background: #005F89;
     height: 100%;
     width: 100%;
     -webkit-transition: all 0.4s ease-in-out;
@@ -14,13 +13,52 @@
     border-radius: 10px;
 }
 
-.hovereffect:hover .overlay {
-    background: rgba(0, 95, 137, 0.8);
+.hovereffect {
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.overlay:hover {
+    background: rgba(0, 95, 137, 0.7);
+}
+
+#profitably-card {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2F20200209_174039.jpg?alt=media&token=0029121d-82c4-4f9d-8075-ed0c761eb626") ;
+}
+
+#prestigiously-card {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2F20200209_175027.jpg?alt=media&token=32c34be5-e92c-40bd-b17e-070b7939c6b1") ;
+}
+
+#positively-card {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2F20200209_175155.jpg?alt=media&token=b6516699-e6cd-46b8-aae5-f11fab956504") ;
+}
+
+#near-card {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2F20200209_174835.jpg?alt=media&token=f70f4ab6-24f7-4bde-827e-1cc97d66e73a") ;
+}
+
+#loyally-card {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2F20200209_174920.jpg?alt=media&token=cbe107ee-0942-42a7-87f5-7fdeeffc8486") ;
+}
+
+#nice-card {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2F20200209_174717.jpg?alt=media&token=32af4462-1006-4c97-bf5e-1f9f34a4a7e6") ;
+}
+
+#fast-card {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2F20200209_175608.jpg?alt=media&token=e9c4ca91-7db8-44b6-90c3-f09a0360c16a") ;
+}
+
+#convenient-card {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2F20200209_174201.jpg?alt=media&token=ccec7a5e-8a40-4d6a-8074-6a8f3b2adce0") ;
 }
 
 #bbp-main {
     text-align: center;
     background: #FFD646;
+    border-radius: 10px;
 }
 
 #bbp-img {

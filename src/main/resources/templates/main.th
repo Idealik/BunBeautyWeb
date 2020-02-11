@@ -85,7 +85,7 @@
     <div class="row justify-content-around">
         <!--1-->
         <div class="col-md-4">
-            <div class="hovereffect col-md-12 my-3">
+            <div class="hovereffect col-md-12 my-3" id="profitably-card">
                 <div class="overlay">
                     <div class="font-weight-bold card-title">Выгодно</div>
                     <div class="row justify-content-center">
@@ -97,7 +97,7 @@
                 </div>
             </div>
 
-            <div class="hovereffect col-12 my-3">
+            <div class="hovereffect col-12 my-3 " id="prestigiously-card">
                 <div class="overlay">
                     <div class="font-weight-bold card-title">Престижно и современно</div>
                     <div class="row justify-content-center">
@@ -109,7 +109,7 @@
                 </div>
             </div>
 
-            <div class="hovereffect col-12 my-3">
+            <div class="hovereffect col-12 my-3" id="positively-card">
                 <div class="overlay">
                     <div class="font-weight-bold card-title">Позитивно</div>
                     <div class="row justify-content-center">
@@ -124,7 +124,7 @@
 
         <!--2-->
         <div class="col-md-4">
-            <div class="hovereffect col-12 my-3">
+            <div class="hovereffect col-12 my-3" id="near-card">
                 <div class="overlay">
                     <div class="font-weight-bold card-title">Рядом</div>
                     <div class="row justify-content-center">
@@ -151,7 +151,7 @@
                 </div>
             </div>
 
-            <div class="hovereffect col-12 my-3">
+            <div class="hovereffect col-12 my-3" id="loyally-card">
                 <div class="overlay">
                     <div class="font-weight-bold card-title">Лояльно</div>
                     <div class="row justify-content-center">
@@ -167,7 +167,7 @@
         <!--3-->
         <div class="col-md-4">
 
-            <div class="hovereffect col-12 my-3">
+            <div class="hovereffect col-12 my-3" id="nice-card">
                 <div class="overlay">
                     <div class="font-weight-bold card-title">Уютно</div>
                     <div class="row justify-content-center">
@@ -180,7 +180,7 @@
                 </div>
             </div>
 
-            <div class="hovereffect col-12 my-3">
+            <div class="hovereffect col-12 my-3" id="fast-card">
                 <div class="overlay">
                     <div class="font-weight-bold card-title">Быстро</div>
                     <div class="row justify-content-center">
@@ -192,7 +192,7 @@
                 </div>
             </div>
 
-            <div class="hovereffect col-12 my-3">
+            <div class="hovereffect col-12 my-3" id="convenient-card">
                 <div class="overlay">
                     <div class="font-weight-bold card-title">Удобно</div>
                     <div class="row justify-content-center">

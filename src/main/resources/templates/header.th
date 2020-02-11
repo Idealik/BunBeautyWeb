@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <meta charset="UTF-8">
@@ -7,9 +7,16 @@
     <meta name="yandex-verification" content="e912090717b36e99" />
     <meta name="yandex-verification" content="4fcf61ca4045dba2" />
     <meta name="google-site-verification" content="iX9FJitXevsxjXcE8nU7ofqOBId7E9_PPVSzZQvPVD8" />
-    <meta name="description" content="Коворкинг в сфере красоты">
+    <meta name="description" content="BunBeauty-коворкинг в сфере красоты. Бьютиковоркинг в Дубне.
+    Мастера в сферекрасоты могут арендавать место и начать работать на себя. Nail мастера, визажисты, бровисты.">
+    <meta name="copyright" content="БанБьюти">
+    <meta name="Author" content="БанБьюти">
+    <meta name="robots" content="index">
+    <meta name="keywords" content="бьютиковоркинг,бьюти коворкинг,маникюр,аренда кабинета,коворкинг центр,коворкинг дубна,
+     бьюти коворкинг дубна,коворкинг центр дубна,коворкинг для бьюти мастеров,салон маникюра">
+    <meta name="Address" content="Россия, Московская область, г. Дубна, Боголюбова 44А строение 1">
 
-    <title>BunBeauty</title>
+    <title>BunBeauty коворкинг в Дубне</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
