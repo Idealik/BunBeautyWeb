@@ -1,17 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
 
 <head th:replace="header"></head>
 <body>
-<script th:src="@{/js/particles.js}"></script>
-<script th:src="@{/js/app.js}"></script>
-<script th:src="@{/js/fontawesome.js}"></script>
 <div class="page">
     <div id="particles-js"></div>
     <div class="h-100" id="main-block">
         <div class="text-center">
-            <img id="main-img" class="rounded" alt="BunBeauty"
-                 src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/main.png?alt=media&token=642c7a7b-d098-46a8-b052-ed9c53814859">
+            <img id="main-img" class="rounded lazyload" alt="BunBeauty"
+                 data-src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/main.png?alt=media&token=642c7a7b-d098-46a8-b052-ed9c53814859">
         </div>
         <div class="row h-40 justify-content-center">
             <a th:href="@{https://www.instagram.com/bunbeauty_official/}">
@@ -32,7 +29,7 @@
         <div class="row justify-content-around" id="info-block">
             <div class="col-md-4 m-2">
                 <div><h1><b>Что это?</b></h1></div>
-                <div><b>Коворкинг в сфере красоты</b></div>
+                <div><h2><b>Коворкинг в сфере красоты</b></h2></div>
                 <div class="extra-info">
                     Недавно мы столкнулись с проблемами:
                     <ul>
@@ -47,7 +44,7 @@
             </div>
             <div class="col-md-3 m-2">
                 <div><h1><b>Где это?</b></h1></div>
-                <div><b>Адрес: просп Боголюбова, 44А, стр 1, 2 этаж</b></div>
+                <div><h2><b>Адрес: просп Боголюбова, 44А, стр 1, 2 этаж</b></h2></div>
                 <div class="extra-info">
                     Конечно, никому не удобно ездить с одного конца города на другой.
                     Для места были выдвинуты особо строгие требования!
@@ -56,7 +53,7 @@
             </div>
             <div class="col-md-4 m-2">
                 <div><h1><b>Сколько стоит?</b></h1></div>
-                <div><b>8499 ₽</b></div>
+                <div><h2><b>8499 ₽</b></h2></div>
 
                 <div class="extra-info">
                     Мы смогли сделать цену намного ниже, чем
@@ -77,6 +74,12 @@
                          </a>
                     </div>
                 </a>-->
+            </div>
+        </div>
+        <div class="row justify-content-center" id="free-places">
+            <div class="col-md-4 text-center">
+                <h2><b>Свободно:</b></h2>
+                место для мастера маникюра – 3 шт.
             </div>
         </div>
     </div>
@@ -140,8 +143,8 @@
 
             <div class="hovereffect col-12 my-3">
                 <div class="overlay" id="bbp-main">
-                    <img id="bbp-img" alt="BunBeauty Places"
-                         src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/ppb.jpg?alt=media&token=0bc9d211-ae73-44e5-a996-4d3e66ee0de9">
+                    <img id="bbp-img" class="lazyload" alt="BunBeauty Places"
+                         data-src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/ppb.jpg?alt=media&token=0bc9d211-ae73-44e5-a996-4d3e66ee0de9">
                     <div class="row justify-content-center">
                         <div class="col-10" id="main-info">Это не просто место для работы, это пространство для
                             творческого
@@ -207,25 +210,25 @@
     </div>
 </div>
 <div class="page" id="app-block">
-    <div class="text-center pt-3 font-weight-bold" id="app-header">Бонунусы для мастеров</div>
+    <div class="text-center pt-3 font-weight-bold" id="app-header"><h1><b>Бонунусы для мастеров</b></h1></div>
     <div class="row justify-content-around" id="app-imgs">
         <div class="col-md-3 text-center">
             <div class="font-weight-bold text-center">Лёгкий старт</div>
             <div class="app-hint">Помощь с дополнительным оборудование</div>
-            <img class="m-1" alt="BunBeauty"
-                 src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/start.png?alt=media&token=78bf5fd1-d070-4ad2-8899-148f90ffa2c6">
+            <img class="m-1 lazyload" alt="BunBeauty"
+                 data-src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/start.png?alt=media&token=78bf5fd1-d070-4ad2-8899-148f90ffa2c6">
         </div>
         <div class="col-md-3 text-center">
             <div class="font-weight-bold text-center">Активное продвижение</div>
             <div class="app-hint">Реклама и продвижение в социальных сетях</div>
-            <img class="m-1" alt="BunBeauty"
-                 src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/promotion.png?alt=media&token=2c19b0a3-02ac-41df-85f3-15b7aca481a8">
+            <img class="m-1 lazyload" alt="BunBeauty"
+                 data-src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/promotion.png?alt=media&token=2c19b0a3-02ac-41df-85f3-15b7aca481a8">
         </div>
         <div class="col-md-3 text-center">
             <div class="font-weight-bold text-center">Хорошая дружба</div>
             <div class="app-hint">3000 ₽ за каждого приведённого мастера</div>
-            <img class="m-1" alt="BunBeauty"
-                 src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/frienship.png?alt=media&token=2aff5c4e-b8a9-4bf1-884e-4ddba9f40300">
+            <img class="m-1 lazyload" alt="BunBeauty"
+                 data-src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/frienship.png?alt=media&token=2aff5c4e-b8a9-4bf1-884e-4ddba9f40300">
         </div>
         <div class="col-md-2 text-center">
             <div class="font-weight-bold">Скоро</div>
@@ -291,8 +294,8 @@
 
         <div class="col-md-3 p-3">
             <div class="col-md-auto row justify-content-center">
-                <img alt="phone"
-                     src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/phone%202.png?alt=media&token=90f7a50b-e75c-49fc-8e02-0ee8f9b1f9cb">
+                <img alt="phone" class="lazyload"
+                     data-src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/phone%202.png?alt=media&token=90f7a50b-e75c-49fc-8e02-0ee8f9b1f9cb">
             </div>
             <div class="col-md-auto row justify-content-center">+7 (996) 922-41-86</div>
             <div class="col-md-auto row justify-content-center">Шавловский Марк Вячеславович</div>
@@ -302,8 +305,8 @@
         <div class="col-md-3 p-3">
             <div class="col-md-auto row justify-content-center">
                 <a th:href="@{https://www.instagram.com/bunbeauty_official/}" target="_blank">
-                    <img alt="inst"
-                         src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/inst.png?alt=media&token=1da529f1-cab2-417f-82e8-b87f3b70fb92">
+                    <img alt="inst" class="lazyload"
+                         data-src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/inst.png?alt=media&token=1da529f1-cab2-417f-82e8-b87f3b70fb92">
                 </a>
             </div>
             <a class="link" th:href="@{https://www.instagram.com/bunbeauty_official/}" target="_blank">
@@ -314,8 +317,8 @@
         <div class="col-md-3 p-3">
             <div class="col-md-auto row justify-content-center">
                 <a th:href="@{https://vk.com/bunbeauty/}" target="_blank">
-                    <img alt="inst"
-                         src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/vk.png?alt=media&token=9b8b457f-e6a0-4964-8ff0-7633c93cbf7e">
+                    <img alt="inst" class="lazyload"
+                         data-src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/vk.png?alt=media&token=9b8b457f-e6a0-4964-8ff0-7633c93cbf7e">
                 </a>
             </div>
             <a class="link" th:href="@{https://vk.com/bunbeauty/}" target="_blank">
@@ -328,8 +331,8 @@
 
             <div class="col-md-auto row justify-content-center">
                 <a th:href="@{https://mail.google.com}" target="_blank">
-                    <img alt="gmail"
-                         src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/g%2B.png?alt=media&token=cb50c03b-34ec-4452-ba70-cce6ec34c8c3">
+                    <img alt="gmail" class="lazyload"
+                         data-src="https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/g%2B.png?alt=media&token=cb50c03b-34ec-4452-ba70-cce6ec34c8c3">
                 </a>
             </div>
             <a class="link" th:href="@{https://mail.google.com}" target="_blank">
@@ -377,5 +380,10 @@
 
 
 </div>
+
+<script th:src="@{/js/particles.js}"></script>
+<script th:src="@{/js/app.js}"></script>
+<script th:src="@{/js/fontawesome.js}"></script>
+<script th:src="@{/js/lazysizes.min.js}" async></script>
 </body>
 </html>

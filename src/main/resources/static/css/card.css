@@ -24,35 +24,43 @@
 }
 
 #profitably-card {
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2F20200209_174039.jpg?alt=media&token=0029121d-82c4-4f9d-8075-ed0c761eb626") ;
-}
-
-#prestigiously-card {
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2F20200209_175027.jpg?alt=media&token=32c34be5-e92c-40bd-b17e-070b7939c6b1") ;
-}
-
-#positively-card {
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2F20200209_175155.jpg?alt=media&token=b6516699-e6cd-46b8-aae5-f11fab956504") ;
+    /* 1 1 */
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2Fwebp%2F1-1-compressor.webp?alt=media&token=afc05d53-d7de-466a-b7f6-64ff5b68a882");
 }
 
 #near-card {
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2F20200209_174835.jpg?alt=media&token=f70f4ab6-24f7-4bde-827e-1cc97d66e73a") ;
-}
-
-#loyally-card {
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2F20200209_174920.jpg?alt=media&token=cbe107ee-0942-42a7-87f5-7fdeeffc8486") ;
+    /* 1 2 */
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2Fwebp%2F1-2-compressor.webp?alt=media&token=91c069b6-98b8-4fa4-b78f-b64f915d3616") ;
 }
 
 #nice-card {
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2F20200209_174717.jpg?alt=media&token=32af4462-1006-4c97-bf5e-1f9f34a4a7e6") ;
+    /* 1 3 */
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2Fwebp%2F1-3-compressor.webp?alt=media&token=b405face-de46-4ca5-8831-d3d715da8ef8") ;
+}
+
+#prestigiously-card {
+    /* 2 1 */
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2Fwebp%2F2-1-compressor.webp?alt=media&token=ded128ee-52bd-4382-8759-b5f76c33dab7") ;
 }
 
 #fast-card {
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2F20200209_175608.jpg?alt=media&token=e9c4ca91-7db8-44b6-90c3-f09a0360c16a") ;
+    /* 2 3 */
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2Fwebp%2F2-3-compressor.webp?alt=media&token=efc1ffec-ee2a-49d5-84a1-1272a6292a15") ;
+}
+
+#positively-card {
+    /* 3 1 */
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2Fwebp%2F3-1-compressor.webp?alt=media&token=5073af74-0310-4778-b2f1-2f15539174d1") ;
+}
+
+#loyally-card {
+    /* 3 2 */
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2Fwebp%2F3-2-compressor.webp?alt=media&token=8d5d2203-6984-462b-8044-4532342e82e5") ;
 }
 
 #convenient-card {
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2F20200209_174201.jpg?alt=media&token=ccec7a5e-8a40-4d6a-8074-6a8f3b2adce0") ;
+    /* 3 3 */
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bunbeautyweb.appspot.com/o/cards%2Fwebp%2F3-3-compressor.webp?alt=media&token=54dd4e9d-a1e6-4683-9d02-7a32bbaa34ec") ;
 }
 
 #bbp-main {
